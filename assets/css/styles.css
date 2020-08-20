@@ -1,0 +1,428 @@
+/**** FONT LINK *****/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+/*** TAGS ***/
+* {
+    box-sizing: border-box;
+}
+html {
+    overflow-x: hidden !important ;
+    height: 100%;
+    position: relative;
+}
+body{
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+
+/**** LANDIE INTRODUCTION SECTION *****/
+
+
+#landie__introduction{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.landie__navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+/** Landie Navbar Menu**/
+.landie__navbar--menu{
+    padding: 0;
+}
+.landie__navbar--menu > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 7% 0;
+    margin: 0;
+    height: 100%;
+    color: #505F98;
+    font-size: 0.9rem;
+}
+.landie__navbar--menu > ul > li{
+    margin: 0 auto 0 0;
+    cursor: pointer;
+}
+
+.landie__navbar--menu > ul > li:hover{
+    color: #ea5455;
+    transition: ease-in 0.2s;
+}
+
+/** Landie Navbar Logo **/
+.landie__navbar--logo{
+    text-align: center;
+    width: 100%;
+}
+.landie__navbar--logo > h2{
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-weight: 900;
+    color: #37447E;
+}
+.landie__navbar--logo > h2:hover{
+    color: #ea5455;
+    transition: ease-in 0.1s;
+}
+
+/** Landie Navbar Button **/
+
+.landie__navbar--button{
+    width: 100%;
+    display: inline-block;
+}
+.landie__navbar--button > button {
+    float: right;
+    background-color: #111B47;
+    color: white;
+    border-radius: 2px;
+    width: 50%;
+}
+.landie__navbar--button > button:hover{
+    background-color: #ea5455;
+    transition: linear 0.2s;
+}
+
+/*** Landie Introduction Main ***/
+.landie__introduction-container{
+    padding: 0;
+}
+.landie__introduction--main{
+   margin: 0;
+   padding: 0;
+   height: 80vh;
+   width: 100%;
+}
+
+/*** Landie Introduction Main Left Part ***/
+.landie__introduction--main-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+.landie__introduction--main-left-h1{
+    color: #091133;
+    font-size: 3.1rem;
+    line-height: 4rem;
+    font-weight: 500;
+}
+.landie__introduction--main-left-p{
+    color: #505F98;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    margin-top: 5%;
+}
+.btn-container{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+
+}
+.landie__introduction--main-left > .btn-container > .btn_1{
+    background-color: #111B47;
+    color: white;
+    border-radius: 2px;
+    width: 30%;
+    font-weight: 500;
+    margin: 0 10% 0 0; 
+}
+.landie__introduction--main-left > .btn-container > .btn_1:hover{
+    transition: ease-in 0.2s;
+    background-color: #ea5455;
+    color: aliceblue;
+
+}
+.landie__introduction--main-left > .btn-container > .btn_2{
+    background-color: white;
+    color: #111B47;
+    border-radius: 2px;
+    font-weight: 500;
+    width: 30%;
+}
+.landie__introduction--main-left > .btn-container > .btn_2:hover{
+    transition: ease-in 0.2s;
+    background-color: #111B47;
+    color: aliceblue;
+}
+
+/*** Landie Introduction Main Right Part ***/
+.landie__introduction--main-right{
+    position: relative;
+}
+.landie__introduction--main-right > img{
+    height: 160%;
+    width: auto;
+    position: absolute;
+    top: -20%;
+    left: -45%;
+    z-index: -99;
+}
+
+/*** SECTION LANDIE MAIN FEATURE ***/
+
+#landie__main-feature{
+    height: 80vh;
+    width: 100vw;
+    margin-top: 15% ;
+}
+.landie__main-feature--left{
+    padding: 0;
+}
+.landie__main-feature--left > h2{
+    font-size: 2.3rem;
+    color: #091133;
+    font-weight: 500;
+    line-height: 3rem;
+    margin-top: 15%;
+}
+.landie__main-feature--left > p{
+    color: #6F7CB2;
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+/* LANDIE MAIN FEATURE TITLE BOX */
+.landie__main-feature--title-box{
+    margin-top: 5%;
+    height: 40%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    }
+
+.landie__main-feature--title-box-flex{
+    display: flex;
+    align-items: flex-start;
+}
+.landie__main-feature--title-box >img{
+    height: 2rem;
+    margin-bottom: 5%;
+    width: auto;
+}
+.landie__main-feature--title-box > h3 {
+    color: #091133;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.landie__main-feature--title-box > p {
+    color: #5D6970;
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+}
+
+/*** LANDIE MAIN FEATURE LEFT ***/
+.landie__main-feature--left{
+
+}
+
+/*** LANDIE REUSABLE FEATURES SECTION ***/
+#landie__features{
+    width: 100vw;
+    height: 50vh;
+    margin-top: 10%;
+    overflow: hidden;
+}
+.landie__features--img{
+    height: 100%;
+    width: 100%;
+}
+.landie__features--left-container{
+    margin-left: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.landie__features--left-container > h2{
+    font-weight: 500;
+    color: #091133;
+    font-size: 2.5rem;
+}
+.landie__features--left-container > p{
+    color: #6F7CB2;
+    line-height: 2rem;
+    width: 90%;
+}
+
+/* LANDIE FEATURES #2 */
+
+
+.landie__features--left-container > button {
+    float: right;
+    background-color: #111B47;
+    color: white;
+    border-radius: 2px;
+    width: 50%;
+    margin-top: 2%;
+}
+.landie__features--left-container > button:hover{
+    background-color: #ea5455;
+    transition: linear 0.2s;
+}
+
+/* LANDIE PRICE SECTION */
+#landie__price{
+    margin-top: 10%;
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+}
+.landie__price--section > img{
+    height: 900px;
+    width: auto;
+    position: absolute;
+    top: -20%;
+    left: -55%;
+    z-index: -99;
+}
+.landie__price--container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.landie__price--container h2{
+    font-weight: 500;
+    font-size: 3rem;
+}
+.landie__price--container  h2:last-of-type{
+    font-size: 4rem;
+}
+
+.landie__price--container > p {
+    font-size: 1rem;
+    line-height: 1.5rem;    
+    color: #6F7CB2;
+}
+.landie__price--section  button {
+    float: right;
+    background-color: #111B47;
+    color: white;
+    border-radius: 2px;
+    width: 20%;
+    margin-top: 2%;
+    padding: 5px;
+}
+.landie__price--section  button:hover{
+    background-color: #ea5455;
+    transition: linear 0.2s;
+}
+
+/* LANDIE FOOTER */
+
+#landie__footer{
+    width: 100%;
+    height: 35vh;
+    background-color: #E7ECFF;
+    padding: 0;
+    margin-top: -5%;
+}
+.landie__footer--first{
+    height: 20vh;
+}
+.landie__footer--by{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    align-items: center;
+    color: #939EA4;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+.landie__footer--logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    height: 20vh;
+}
+.landie__footer--logo  h2 {
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-weight: 900;
+    color: #37447E;
+}
+.landie__footer--logo  h2:hover{
+    color: #ea5455;
+    transition: ease-in 0.1s;
+}
+.landie__footer--btn{
+    width: 100%;
+    display: flex;
+    align-items: center;    
+    justify-content: flex-end;
+}
+.landie__footer--btn > button {
+    background-color: #111B47;
+    color: white;
+    border-radius: 2px;
+    width: 50%;
+}
+.landie__footer--btn > button:hover{
+    background-color: #ea5455;
+    transition: linear 0.2s;
+}
+
+.landie__footer--menu > ul{
+    list-style: none;
+    display: flex;
+    justify-content: s;
+    padding: 5% 0;
+    margin: 0;
+    height: 100%;
+    width: 50%;
+    color: #929ECC;
+    font-size: 0.9rem;
+}
+.landie__footer--menu > ul > li{
+    margin: 0 auto 0 0;
+    cursor: pointer;
+}
+
+.landie__footer--menu > ul > li:hover{
+    color: #ea5455;
+    transition: ease-in 0.2s;
+}
+.right-corner-footer{
+    align-items: flex-end !important;
+}
+.landie__right--footer{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

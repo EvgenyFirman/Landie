@@ -1,0 +1,194 @@
+@media (min-width: 480px) and (max-width: 768px) {
+    header{
+        padding: 3% 3%;
+    }
+    .landie__navbar--menu > ul > li{
+        margin: 0 5% 0 0;
+    }
+    .landie__introduction--main-left{
+        text-align: center;    
+    }
+    
+    .btn-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .landie__introduction--main-right  {
+        height: 40%;
+        width: auto;
+        background-position: center;
+    }
+    #landie__main-feature{
+        height: 60vh;
+    }
+    .landie__main-feature--left{
+        text-align: center;
+    }
+    .landie__main-feature--title-box-flex{
+        align-items: center;
+        justify-content: center;
+    }
+    .landie__main-feature--title-box{
+       display: flex;
+       align-items: center;
+    }
+    .landie__main-feature--left > img{
+        display: none;
+    }
+    #landie__features{
+        height: 90vh;
+        text-align: center;
+    }
+    .landie__features--img{
+        padding: 3%;
+    }
+    .landie__price--section{
+        text-align: center;
+    }
+   
+    .landie__features--left-container > button{
+        
+        width: 50%;
+        
+    }
+    .landie__footer--first > .col-sm-4{
+        width: 33%;
+    }
+    .landie__footer--btn > button{
+        width: 90%;
+    }
+    .landie__footer--second > .col-sm-6{
+        width: 50% !important;
+    }
+    .landie__footer--menu > ul > li{
+        padding: 0 5%;
+    }
+
+
+ }
+ @media (min-width: 574px) and (max-width: 768px) {
+     .landie__introduction--main-left > h1{
+         text-align: left;
+     }
+     .landie__introduction--main-left-p{
+         width: 90vw;
+         text-align: left;
+     }
+     .btn-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .btn-container button{
+        margin: 0 auto;
+    }
+    #landie__main-feature{
+        height: 100vh;
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .landie__main-feature--left > img{
+        display: flex;
+        align-self: flex-end;
+    }
+    .landie__main-feature--title-box-flex{
+        justify-content: center;
+    }
+    #landie__features{
+       height: 70vh;
+    }
+
+    .landie__features--left-container{
+        text-align: left;
+        
+    }
+    .landie__features--left-container p{
+        line-height: 1.5rem;    
+    }
+    .landie__features--1{
+        margin-top: 15% !important;
+    }
+    
+
+ }
+
+@media (max-width: 480px) {
+    #landie__introduction{
+        height: 90vh;
+    } 
+    .landie__navbar--menu > ul > li {
+        font-size: 0.5rem !important;
+        padding: 5%;
+    }
+    .landie__introduction--main-left{
+        text-align: center;
+    }
+    .btn-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-container > button{
+        width: 50%;
+
+    }
+    .landie__introduction--main-right{
+        display: none;
+    }
+    #landie__main-feature{
+        height: 130vh;
+    }
+    .landie__main-feature--left{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+       
+    }
+    .landie__main-feature--left > h2{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .landie__main-feature--title-box-flex{
+        text-align: left;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #landie__features{
+        height: 100vh;
+        text-align: left;
+    }
+    #landie__features img{
+        margin-bottom: 5%;
+    }
+    .landie__price--section{
+        text-align: center;
+    }
+    .landie__price--container > button{
+        width: 50%;
+    }
+    
+    .landie__features--left-container > button{
+        
+        width: 50%;
+        
+    }
+    .landie__footer--first > .col-sm-4{
+        width: 33%;
+    }
+    .landie__footer--btn > button{
+        width: 90%;
+    }
+    .landie__footer--second > .col-sm-6{
+        width: 50% !important;
+    }
+    .landie__footer--menu > ul > li{
+        padding: 0 5%;
+    }
+
+}
